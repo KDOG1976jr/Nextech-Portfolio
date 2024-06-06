@@ -1,0 +1,40 @@
+li {
+    overflow: hidden;
+    background-color: goldenrod;
+    float: left;
+}
+
+
+
+
+
+
+ li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.bottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.bot{
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    float: left;
+}
+.bot a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    
+    
+
