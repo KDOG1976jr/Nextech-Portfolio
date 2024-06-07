@@ -1,6 +1,9 @@
+ul{
+    background-color: black;
+}
 li {
     overflow: hidden;
-    background-color: goldenrod;
+    background-color: black;
     float: left;
 }
 
@@ -11,10 +14,11 @@ li {
 
  li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 20px 40px;
     text-decoration: none;
+    font-family: 'Lucida Handwriting';
 }
 
 .bottom{
@@ -22,12 +26,16 @@ li {
     bottom: 0;
     width: 100%;
     background-color: black;
+    border: 2px solid black;
+    
+    
 }
 .bot{
     overflow: hidden;
     background-color: black;
     color: white;
-    float: left;
+    
+    
 }
 .bot a{
     display: block;
@@ -36,6 +44,7 @@ li {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
+    justify-content: space-between;
 }
 
 .bott{
@@ -43,6 +52,7 @@ li {
     background-color: black;
     color: black;
     float: inline-start;
+
 }
 
 
