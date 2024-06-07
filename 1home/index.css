@@ -13,7 +13,7 @@ li {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 40px;
     text-decoration: none;
 }
 
@@ -21,6 +21,7 @@ li {
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: black;
 }
 .bot{
     overflow: hidden;
@@ -34,7 +35,33 @@ li {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 20px;
+}
+
+.bott{
+    overflow: hidden;
+    background-color: black;
+    color: black;
+    float: inline-start;
+}
+
+
+
+
+.bott a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
     
-    
+img{
+    width: 500px;
+    height: 500px;
+}
+
+body{
+    background-image: ;
+}
 
