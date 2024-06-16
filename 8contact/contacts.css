@@ -1,20 +1,9 @@
-ul{
-    background-color: white;
-}
 li {
     overflow: hidden;
-    background-color: white;
+    background-color: black;
     float: left;
 }
-li:hover{
-    background-color: black;
-    color: white;
-    padding: 25px 45px;
-    transition: 1s;
-}
-li a:hover{
-    color: white;
-}
+
 
 
 
@@ -22,7 +11,7 @@ li a:hover{
 
  li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 20px 40px;
     text-decoration: none;
@@ -34,16 +23,12 @@ li a:hover{
     bottom: 0;
     width: 100%;
     background-color: black;
-    border: 2px solid black;
-    
-    
 }
 .bot{
     overflow: hidden;
     background-color: black;
     color: white;
-    
-    
+    float: left;
 }
 .bot a{
     display: block;
@@ -52,7 +37,6 @@ li a:hover{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
-    justify-content: space-between;
 }
 
 .bott{
@@ -60,7 +44,6 @@ li a:hover{
     background-color: black;
     color: black;
     float: inline-start;
-
 }
 
 
@@ -107,4 +90,3 @@ body{
 .dropdown:hover .dropdown-content{
     display:block
 }
-
