@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+
+
+li{
+    overflow: hidden;
+    text-decoration: none;
+    
+}
+
+li a{
+   display: block;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 40px;
+
+
+}
+li:hover{
+    font-size: 60px;
+}
+.menu{
+    display: none;
+}
+p{
+    color: white;
+}
+.login{
+    justify-content: center;
+    margin: 300px;
+}
+.logo{
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-right: 150px;
+}
