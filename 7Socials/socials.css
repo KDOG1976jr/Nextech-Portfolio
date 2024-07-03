@@ -1,92 +1,81 @@
-li {
-    overflow: hidden;
-    background-color: black;
-    float: left;
-}
 
-
-
-
-
-
- li a {
-    display: block;
-    color: white;
+.fa {
+    padding: 20px;
+    font-size: 60px;
+    width: 50;
     text-align: center;
-    padding: 20px 40px;
     text-decoration: none;
-    font-family: 'Lucida Handwriting';
-}
+    border-radius: 10%;
+  }
+  
 
-.bottom{
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+ 
+  
+
+  .fa-instagram {
+    background: #c13584;
+    color: white;
     position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-}
-.bot{
-    overflow: hidden;
-    background-color: black;
+    bottom: 250px;
+    left: 100px;
+  }
+  
+  
+  .fa-twitter {
+    background: #55ACEE;
     color: white;
-    float: left;
-}
-.bot a{
-    display: block;
+    position: fixed;
+    bottom: 250px;
+    left: 400px;
+  }
+  .fa-facebook {
+    background: #3b5998;
     color: white;
+    position: fixed;
+    bottom: 250px;
+    left: 700px;
+  }
+  .fa-linkedin {
+    background: #0a66c2;
+    color: white;
+    position: fixed;
+    bottom: 250px;
+    left: 1000px;
+  }
+  .fa-youtube {
+    background: #FF0000;
+    color: white;
+    position: fixed;
+    bottom: 250px;
+    left: 1300px;
+  }
+  
+
+  body{
+    background-image: url(/Logo.jpg);
+    color: white;
+    text-shadow: 2px 2px #686d76;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
+  }
+  h6{
+    color: white;
+    text-shadow: 2px 2px #686D76;
+    position: fixed;
+    bottom: 0px;
+    right: 725px;
 }
-
-.bott{
-    overflow: hidden;
-    background-color: black;
-    color: black;
-    float: inline-start;
+.backBtn{
+  border: 1px solid #686D76;
+  width: 100px;
+  background: #686D76;
 }
-
-
-
-
-.bott a{
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-    
-img{
-    width: 500px;
-    height: 500px;
-}
-
-body{
-    background-color:darkgoldenrod ;
-}
-.dropdown{
-    display: inline-block;
-}
-.dropdown-content{
-    display: none;
-    position: absolute;
-    background-color: darkgoldenrod;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px black;
-    z-index: 1;
-}
-.dropdown-content a{
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover{
-    background-color: goldenrod;
-}
-.dropdown:hover .dropdown-content{
-    display:block
+.backWords{
+  color: white;
+  text-shadow: #686D76;
+  font-size: 30px;
+  text-decoration: none;
 }

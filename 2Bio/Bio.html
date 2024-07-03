@@ -7,33 +7,45 @@
     <link rel="stylesheet" href="Bio.css">
 </head>
 <body>
-    <ul>
-        <li class="placeholder"><a href="/index.html">Home</a></li>
-        <li class="placeholder"><a href="/2Bio/Bio.html">About Me</a></li>
-        <li class="placeholder-2"><a href="/3 empty/2empty.html">placeholder</a></li>
-        <li class="dropdown"><a href="/4projects/project.html">Projects</a>
-            <div class="dropdown-content">
-                <a href="/5Robotics/Robotics.html">Robotics Website</a>
-                <a href=""></a>
-            </div></li>
-    </ul>
+    <div class="backcontain">
+    <a class="backBtn" href="/MainMenu/mainMenu.html">   <   </a>
+    </div>
+   <div class="about-me"> 
+    <img class="fade-in-picture" id="fadePicture" src="IMG_4358.jpg" alt="">
+    <div class="fade-in-text" id="fadeText">
+    <p>My name is Keith Owens Jr. I am a high school web designer, who currently attends Warren Central High school. I like to bowl competitively for my school and just in general. I am also apart of my High school's robotics team as a programmer and a driver. Currently I am a Catapult in Nextech's summer internship program.
+    </div>   
+    </div>
 
-    <ul class="bottom">
-        <li class="bott">If you find this then congrats. It's an easter egg! I don't really know what else to put.Congrats</li>
-        <li class="bot"><a href="/7Socials/socials.html">Socials</a></li>
-        <li class="bot"><a href="">Contact Me</a></li>
-    </ul>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="/IMG_4056.jpg" alt="">
-    <p>My name is Keith Owens Jr, and I am a highschool web designer, who currently attends Warren Central Highschool. I like to Bowl in my freetime, and I bowl competitively in
-        highschool for my school. I am apart of my Highschool's, robotics team as a programmer and a driver for the team. In my spare time, when I'm not building websites, Bowling, or at a Robotics competition,
-        I like to play video games or solve rubik's cubes. I am currently working on starting a business where I build websites for people to use
-    </p>
+    <div class="contactBtn">
+    <button class="contactMeBtn">Contact Me</button>
+    </div>
+
+
+
+    <div class="contactMe">
+        <h2 class="firstName">First Name: <input type="text" class="first"></h2>
+        <h2 class="lastName">Last Name: <input type="text" class="last"></h2>
+        <h2 class="email">Email: <input type="text" class="gmail"></h2>
+       <h2 class="message">Message: <input type="text" class="messageSent"></h2>
+
+       <div class="submit">
+        <button class="submitbtn">Submit</button>
+       </div>
+    </div>
+
+    <div class="learnMore">
+        <div class="learnMoreBtn">
+            <button class="moreBtn">Learn More</button>
+        </div>
+        <div class="future" id="futurePg">
+        <h1>Future Aspirations</h1>
+        <img class="pic2" src="IMG_4358.jpg" alt="">
+        <p class="words">In the future, I would like to go to college for my Masters in Computer Science. I'd also like to bowl collegiately. After graduation, my plans are to start a web development comapny, bowl professionally, or finding a job in the computer science field. </p>
+        
+        </div>
+    </div>
+
+    <script src="Bio.js"></script>
 </body>
 </html>
